@@ -1,5 +1,6 @@
-import Navbar from '../components/Navbar'
-import '../styles.css'
+import Navbar from "../components/Navbar";
+import "../styles.css";
+import "@lourenci/react-kanban/dist/styles.css";
 
 export default function MyApp({ Component, pageProps }) {
   return (
@@ -11,5 +12,5 @@ export default function MyApp({ Component, pageProps }) {
         </div>
       </main>
     </>
-  )
+  );
 }
